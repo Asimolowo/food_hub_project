@@ -34,3 +34,21 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 ```
+# Understanding the structure of the data
+
+```
+# read the data
+df = pd.read_csv('foodhub_order.csv')
+# returns the first 5 rows
+df.head()
+```
+
+
+|    | order_id | customer_id | restaurant_name           |	cuisine_type | cost_of_the_order | day_of_the_week | rating    | food_preparation_time | delivery_time |
+| -- | -------- | ----------- | ------------------------- | ------------ | ----------------- | --------------- | --------- | --------------------- | ------------- |
+| 0  | 1477147  | 337525      |	Hangawi                   |	Korean       | 30.75             | Weekend         | Not given |	25	                 | 20            |
+| 1  | 1477685  | 358141      |	Blue Ribbon Sushi Izakaya |	Japanese     | 12.08             | Weekend         | Not given |	25	                 | 23            |
+| 2  | 1477070  | 66393	      | Cafe Habana               |	Mexican      | 12.23             | Weekday         | 5	       |  23	                 | 28            |
+| 3  | 1477334  | 106968      |	Blue Ribbon Fried Chicken |	American     | 29.20	           | Weekend	       | 3	       |  25	                 | 15            |
+| 4  | 1478249  | 76942       |	Dirty Bird to Go	        | American     | 11.59	           | Weekday         | 4	       |  25                   | 24            |
+
