@@ -34,7 +34,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 ```
-# Understanding the structure of the data
+### Understanding the structure of the data
 
 ```
 # read the data
@@ -51,4 +51,12 @@ df.head()
 | 2  | 1477070  | 66393	      | Cafe Habana               |	Mexican      | 12.23             | Weekday         | 5	       |  23	                 | 28            |
 | 3  | 1477334  | 106968      |	Blue Ribbon Fried Chicken |	American     | 29.20	           | Weekend	       | 3	       |  25	                 | 15            |
 | 4  | 1478249  | 76942       |	Dirty Bird to Go	        | American     | 11.59	           | Weekday         | 4	       |  25                   | 24            |
+
+### Observations
+#### The DataFrame has 9 columns as mentioned in the Data Dictionary. Data in each row corresponds to the order placed by a customer.
+
+### Question 1: Write the code to check the shape of the dataset and write your observations based on that.
+```
+df.shape
+```
 
